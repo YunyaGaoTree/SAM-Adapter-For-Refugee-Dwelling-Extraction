@@ -1,5 +1,7 @@
 # Segment Anything Model for Refugee-Dwelling Extraction (SAM4Refugee) From High-Resolution Satellite Imagery
 
+Updated 26/09/2023. This repository is still under construction. 
+
 This repository contains codes for how to segment refugee dwellings (or any other types of buildings) from high-resolution satellite imagery using the SAM-Adapter model.<br>
 
 The codes are adapted based on [SAM Adapter](https://github.com/tianrun-chen/SAM-Adapter-PyTorch) for training and [segment-geospatial](https://github.com/opengeos/segment-geospatial) for creating prediceted masks in the format of GeoTIFF and polygons in the format of ShapeFile.<br>
