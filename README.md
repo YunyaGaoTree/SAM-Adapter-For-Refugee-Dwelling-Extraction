@@ -22,5 +22,8 @@ Please Change "path_data" in /run_sam/train.py & inference_noft.py & evaluation.
 
 Avaiable datasets:
 Due to data license issues, only data of Kutupalong refugee camp is available.
+Through the following link, you could download the raw image and lable data for training (small and large), testing and validation.
+https://drive.google.com/drive/folders/1cenZaqgjbvGqlk3c8Y4JDfNoIJBZCvn1?usp=sharing
+
 Link to the complete drone image dataset for Kutupalong refugee camp:
 https://data.humdata.org/dataset/iom-bangladesh-needs-and-population-monitoring-npm-drone-imagery-and-gis-package-by-camp-august-2018
