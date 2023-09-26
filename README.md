@@ -20,6 +20,8 @@ Avaialable input prompts: <br>
 Before using this repository:
 Please Change "path_data" in /run_sam/train.py & inference_noft.py & evaluation.py to your own path.
 
+Check "SAM_Adapter_For_Refugee_Dwellings.ipynb" for more details to use prompts to run the SAM-Adapter for different purposes.
+
 Avaiable datasets:
 Due to data license issues, only data of Kutupalong refugee camp is available.
 Through the following link, you could download the raw image and lable data for training (small and large), testing and validation.
