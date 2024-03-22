@@ -10,7 +10,7 @@ These codes can be easily adapted for binary semantic segmentation applications 
 
 **Install environment**
 
-0. Download data:
+### 0. Download data:
 Due to data license issues, only data of Kutupalong refugee camp is available.
 Through the following link, you could download the raw image and lable data for training (small and large), testing and validation.
 https://drive.google.com/drive/folders/1FgD-E_2RwSeVwkgW2X7JwmmLnMU_Zo2z?usp=sharing
@@ -18,10 +18,10 @@ https://drive.google.com/drive/folders/1FgD-E_2RwSeVwkgW2X7JwmmLnMU_Zo2z?usp=sha
 Link to the complete drone image dataset for Kutupalong refugee camp:
 https://data.humdata.org/dataset/iom-bangladesh-needs-and-population-monitoring-npm-drone-imagery-and-gis-package-by-camp-august-2018
 
-1. Change the path of data based on your own situations.
+### 1. Change the path of data based on your own situations.
 Please Change "path_data" in /run_sam/train.py & inference_noft.py & evaluation.py to your own path.
 
-3. Try “environment.yml” at first to create environment for both data processing and training/inferencing. 
+### 2. Try “environment.yml” at first to create environment for both data processing and training/inferencing. 
 It may take quite a long time. 
 (Change to your working directory when running commands if necessary, 
 e.g., conda env create -f /home/yunya/environment.yml)
@@ -29,25 +29,25 @@ e.g., conda env create -f /home/yunya/environment.yml)
 Link for creating environment by .yml (detailed): https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
 Link (short): https://shandou.medium.com/export-and-create-conda-environment-with-yml-5de619fe5a2
 
-3. If it does not work, try to install environment based on the following steps.
+### 3. If it does not work, try to install environment based on the following steps.
 Then, follow the instructions in Data_Processing_SAM.ipynb (Remember to change working directory at the beginning) to start processing data and SAM_Adapter_For_Building_Extraction.ipynb to start training/inferencing. 
 
-4. Attention: if you download the packages directly from Colab, it is possible that you will miss the “pretrained” folder as shown below. If it happens, please download this folder manually.
+### 4. Attention: if you download the packages directly from Colab, it is possible that you will miss the “pretrained” folder as shown below. If it happens, please download this folder manually.
 
-5.Steps of installing codes for processing data for SAM
+### 5.Steps of installing codes for processing data for SAM
 CV2 requires Python (3.7<=Python<3.11)
-# install Python (or other names if necessary)
+#### install Python (or other names if necessary)
 conda create -n sam  python==3.10
 conda activate sam 
 
-# install Jupyter lab related libraries
+#### install Jupyter lab related libraries
 conda install -c conda-forge jupyterlab -y
 conda install -c conda-forge nb_conda_kernels -y
 conda install ipywidgets -y
 conda install -c anaconda ipykernel -y
 python -m ipykernel install --user --name data --display-name "data_sam (3.10)"
 
-# install libraries related to data processing
+#### install libraries related to data processing
 conda install tqdm -y
 conda install rasterio -y
 conda install scipy -y
@@ -59,7 +59,7 @@ conda install -c conda-forge gdal -y
 conda install -c conda-forge proj geopandas -y
 conda install -c conda-forge geopandas -y
 
-6.Steps of installing codes for training SAM and inferencing
+### 6.Steps of installing codes for training SAM and inferencing
 conda install pytorch==2.0.1 -y
 conda install tensorboardX -y
 conda install -c conda-forge segment-anything -y
