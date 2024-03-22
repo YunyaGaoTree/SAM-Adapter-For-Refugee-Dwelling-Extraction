@@ -8,8 +8,6 @@ The codes are adapted based on [SAM Adapter](https://github.com/tianrun-chen/SAM
 
 These codes can be easily adapted for binary semantic segmentation applications in remote sensing. Feel free to use it for your own applications and implement in your local machine.<br>
 
-**Install environment**
-
 ### 0. Download data:
 Due to data license issues, only data of Kutupalong refugee camp is available.
 Through the following link, you could download the raw image and lable data for training (small and large), testing and validation.
