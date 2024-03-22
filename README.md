@@ -1,6 +1,6 @@
 # Segment Anything Model for Refugee-Dwelling Extraction (SAM4Refugee) From High-Resolution Satellite Imagery
 
-### Updated 17/03/2024. 
+### Updated 22/03/2024. 
 
 This repository contains codes for how to segment refugee dwellings (or any other types of buildings) from high-resolution satellite imagery using the SAM-Adapter model.<br>
 
