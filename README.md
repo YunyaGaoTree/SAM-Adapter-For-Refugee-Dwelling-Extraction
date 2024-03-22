@@ -76,3 +76,14 @@ conda install leafmap -y
 - ('--model_save_epoch', default=999, help="the interval of saving trained models.") 
 - ('--inference_save_epoch', default=1, help="the interval of saving trained models") 
 - ('--thres', default=0.5, help="the threshold to determine the binary map")  
+
+**Architecture of SAM-Adapter**
+Please check the original SAM-Adapter through this GitHub repository: https://github.com/tianrun-chen/SAM-Adapter-PyTorch (Credits to Tianrun Chen)
+![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/43e81a27-8cbc-45b1-a41d-9ce307ee7de2)
+
+**Results from FPN-MiT (Mix Vision Transformer) and SAM-Adapter**
+Study site: Djibo Refugee Camp, Burkina Faso 
+![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/3eb90a6c-6b9a-49d5-819e-a72154c52177)
+
+
+
