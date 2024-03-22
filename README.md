@@ -81,9 +81,22 @@ conda install leafmap -y
 Please check the original SAM-Adapter through this GitHub repository: https://github.com/tianrun-chen/SAM-Adapter-PyTorch (Credits to Tianrun Chen)
 ![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/43e81a27-8cbc-45b1-a41d-9ce307ee7de2)
 
-**Results from FPN-MiT (Mix Vision Transformer) and SAM-Adapter**
+### Results from FPN-MiT (Mix Vision Transformer) and SAM-Adapter
 Study site: Djibo Refugee Camp, Burkina Faso 
 ![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/3eb90a6c-6b9a-49d5-819e-a72154c52177)
+
+### Data processing
+![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/99dd0422-4dfe-43e9-9c8c-0ef1c77db647)
+
+### The benefits of upscaling for satellite images in building extraction for refugee camps or other cases
+An example in the Minawao refugee camp showcases the influence of upscaling on the performance of SAM-Adapter. 
+A. Original image; 
+B. Ground truth; 
+C. Upscaled image; 
+D. Predicted masks from SAM-Adapter
+
+![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/008426a4-6c4d-4d1d-93b3-b0818e946584)
+
 
 
 
