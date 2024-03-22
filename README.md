@@ -94,8 +94,8 @@ A. Original image;
 B. Ground truth; 
 C. Upscaled image; 
 D. Predicted masks from SAM-Adapter
+![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/8e015c47-ca6a-4559-afd4-b5237fd2ac2e)
 
-![image](https://github.com/YunyaGaoTree/SAM-Adapter-For-Refugee-Dwelling-Extraction/assets/101531630/008426a4-6c4d-4d1d-93b3-b0818e946584)
 
 
 
